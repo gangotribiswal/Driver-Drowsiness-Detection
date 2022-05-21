@@ -10,6 +10,7 @@ VGG architecture performed better than AlexNet and the baseline CNN model
 
 https://www.kaggle.com/datasets/serenaraju/yawn-eye-dataset-new
 
+Remove yawn and no_yawn folder and use only 'Open' and 'Closed' folders.
 
 # Methodology
 
@@ -38,3 +39,6 @@ sound = mixer.Sound ('C:\\Users\\User\\Desktop\\SJSU Docs\\Spring 2022\\DATA 255
 face = cv2.CascadeClassifier(r'C:\Users\User\Desktop\SJSU Docs\Spring 2022\DATA 255\Final Project\Final Report\Final_Demo_Files\haarcascade_frontalface_alt.xml')
 leye = cv2.CascadeClassifier(r'C:\Users\User\Desktop\SJSU Docs\Spring 2022\DATA 255\Final Project\Final Report\Final_Demo_Files\haarcascade_lefteye_2splits.xml')
 reye = cv2.CascadeClassifier
+
+
+<img width="728" alt="image" src="https://user-images.githubusercontent.com/78765097/169637396-211ac7d1-7a66-4092-9974-1300013c6962.png">
