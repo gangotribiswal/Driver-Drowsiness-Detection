@@ -36,9 +36,12 @@ The project is implemented using Google Colab. Since pygame is not supported on 
 8. Change cwd to DL Project and run the 'drowsiness_detection_demo.py'. This should open the local camera. Keep your eyes open and check the score. It should not change and there should be no alarm. Next, close your eyes and wait for the alarm to trigger (drowsiness detected). The score should increase to 15 or above when eyes are closed. Open your eyes again and notice the score go down (Your drowsiness_detection_demo.py and DATA255_demo_VGG.h5 should be in the same directory. Please change the path of all the variables mentioned below in the drowsiness_detection_demo.py file).
 
 sound = mixer.Sound ('C:\\Users\\User\\Desktop\\SJSU Docs\\Spring 2022\\DATA 255\\Final Project\\Final Report\\Final_Demo_Files\\alarm.wav')
+
 face = cv2.CascadeClassifier(r'C:\Users\User\Desktop\SJSU Docs\Spring 2022\DATA 255\Final Project\Final Report\Final_Demo_Files\haarcascade_frontalface_alt.xml')
+
 leye = cv2.CascadeClassifier(r'C:\Users\User\Desktop\SJSU Docs\Spring 2022\DATA 255\Final Project\Final Report\Final_Demo_Files\haarcascade_lefteye_2splits.xml')
-reye = cv2.CascadeClassifier
+
+reye = cv2.CascadeClassifier(r'C:\Users\User\Desktop\SJSU Docs\Spring 2022\DATA 255\Final Project\Final Report\Final_Demo_Files\haarcascade_righteye_2splits.xml')
 
 
 <img width="728" alt="image" src="https://user-images.githubusercontent.com/78765097/169637396-211ac7d1-7a66-4092-9974-1300013c6962.png">
